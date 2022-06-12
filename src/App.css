@@ -96,3 +96,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.header-menu .profileBadge {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}

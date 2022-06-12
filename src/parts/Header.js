@@ -8,6 +8,7 @@ import ICMessenger from "../img/icons/ic_messenger.svg";
 import ICAdd from "../img/icons/ic_add.svg";
 import ICExplore from "../img/icons/ic_explore.svg";
 import ICLike from "../img/icons/ic_like.svg";
+import ProfileBadge from "components/ProfileBadge";
 
 function Header() {
   const style = {
@@ -40,7 +41,7 @@ function Header() {
           <Menu id="add" name="add" src={ICAdd} srcType="svg" />
           <Menu id="explore" name="explore" src={ICExplore} srcType="svg" />
           <Menu id="like" name="like" src={ICLike} srcType="svg" />
-          <Menu id="like" name="like" src={ICLike} srcType="svg" />
+          <ProfileBadge link="profile.png" />
         </div>
       </div>
     </header>

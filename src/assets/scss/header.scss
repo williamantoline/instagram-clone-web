@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 8px 400px;
+  justify-content: space-between;
+
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+}
+.header-logo {
+  width: 270px;
+}
+.header-logo
+.headaer-search {
+  width: 270px;
+}
+.header-menu {
+  width: 254px;
+}
+.header-search div {
+  background-color: #efefef;
+  width: 270px;
+  height: 36px;
+  color: #8e8e8e;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 2px 16px;
+  border-radius: 6px;
+}
+.header-search div img {
+  width: 16px;
+}
+.header-search div input {
+  background: 0;
+  border: 0;
+  margin-left: 10px;
+  font-size: 15px;
+  width: 210px;
+}
+.header-search div input::placeholder {
+  color: #8e8e8e;
+}
+.header-menu div {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu .profileBadge {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
